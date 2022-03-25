@@ -1,0 +1,24 @@
+#sidebar {
+    background: #0D28A6;
+    width: 70px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar img {
+    padding: 18px;
+}
+
+.icon-sidebar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.icon-sidebar p{
+    margin-top: -16px;
+}

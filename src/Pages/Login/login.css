@@ -1,0 +1,15 @@
+.bg-login {
+    background: url(../../Assets/Img/login_img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.form-login {
+    width: 34rem;
+    padding: 10px 50px 10px 50px;
+}
+
