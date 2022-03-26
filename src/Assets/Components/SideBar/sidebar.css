@@ -1,3 +1,13 @@
+#root-side {
+    display:flex;
+    flex-direction: row;
+}
+
+#root-sidebar {
+    display: flex;
+    flex-direction: row;
+}
+
 #sidebar {
     background: #0D28A6;
     width: 70px;
@@ -21,4 +31,52 @@
 
 .icon-sidebar p{
     margin-top: -16px;
+}
+
+#sidebar-2{
+    width: 240px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    
+}
+#sidebar-2 img {
+    padding: 18px;
+    margin-right: auto;
+}
+
+#content {
+    padding: 40px 16px;
+}
+
+
+#judul {
+    font-weight: bold;
+    color:  #8A8A8A;
+}
+
+#sub-judul {
+    font-weight: bold;
+    padding-top: 24px;
+}
+
+#nav {
+    height: 70px;
+    width: 1226px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+}
+
+#account {
+    padding-left: 12px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#account p{
+    margin: auto;
 }
