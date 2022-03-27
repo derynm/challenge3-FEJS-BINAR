@@ -17,13 +17,13 @@ export const SideBar = ({ Title, Sub }) => {
       <div id="root-sidebar">
         <div id="sidebar">
           <img src={logo} alt="logo" />
-          <a href="dashboard" id="link-sidebar">
+          <a href="/dashboard" id="link-sidebar">
             <div className="icon-sidebar">
               <img src={home} alt="home" />
               <p>Dashboard</p>
             </div>
           </a>
-          <a href="cars" id="link-sidebar">
+          <a href="/cars" id="link-sidebar">
             <div className="icon-sidebar">
               <img src={admin} alt="admin" />
               <p>Cars</p>

@@ -1,4 +1,4 @@
-#table {
+#edit-frm {
     max-width: 1180px;
     margin-top: -680px;
     margin-left: 380px;
@@ -6,6 +6,7 @@
     height: 90vh;
     padding: 10px 20px 30px 30px; 
 }
+
 .dir{
     display: flex;
     flex-direction: row;
@@ -17,34 +18,21 @@
     padding: 0px 16px;
 }
 
-.main {
-    font-weight: bold;
+#frm-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 560px;
 }
 
-#img-main {
-    height: 20px;
-    padding-left: 0!important;
+#edit-frm-main {
+    background: white;
+    border-radius: 2px;
+    padding: 12px;
 }
 
-
-.nav-page {
+.btn-grp-edit {
+    width: 140px;
     display: flex;
     justify-content: space-between;
-
-}
-.left{
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.jump-page .btn{
-    padding: 0.375rem 2rem!important;
-}
-
-.button-grub {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
